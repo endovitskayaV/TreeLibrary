@@ -10,10 +10,9 @@ namespace TreeLibrary
     {
         const string excMessage = "TreeException: ";
 
-        public  TreeException(string message)
+        public TreeException(string message)
             : base(String.Format("{0}{1}", excMessage, message))
         {
-
         }
     }
 }
